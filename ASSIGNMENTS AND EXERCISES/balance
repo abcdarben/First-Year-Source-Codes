@@ -12,7 +12,7 @@ int main() {
 	scanf("%f", &TD);
 
 	printf("Enter the total amount of withdrawals made: ");
- scanf("%f", &W);
+        scanf("%f", &W);
 
 	CB = SAB + TD - W; // computation for current balance
 
